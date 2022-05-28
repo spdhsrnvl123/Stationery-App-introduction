@@ -6,6 +6,9 @@
   font-family: inklipquid;
   src: url("/font/inklipquid.ttf");
 }
+html {
+  font-size: 12px;
+}
 header {
   position: fixed;
   z-index: 100;
@@ -33,6 +36,7 @@ header {
 /* ------------------------------------------------------ */
 .container {
   position: relative;
+  /* height: 100%; */
 }
 section {
   width: 100%;
@@ -49,8 +53,8 @@ section {
   color: red;
   background-image: url("/images/home\ bg\ 01.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: -60px;
+  background-size: cover;
+  background-position-y: -40px;
 }
 
 #represent_title {
@@ -83,16 +87,7 @@ section {
 .second-text.active {
   animation: appear 2s ease-in-out alternate;
 }
-@keyframes appear {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
+
 .first-text {
   position: absolute;
   top: 84%;
@@ -114,7 +109,7 @@ section {
   background-image: url("/images/home\ bg\ 02.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position-y: -60px;
+  background-position-y: -40px;
 }
 
 .section-1-content {
@@ -126,8 +121,14 @@ section {
   font-size: 5rem;
   font-family: inklipquid;
 }
+.section-1-text.active {
+  animation: appear 1s ease-in-out alternate;
+}
 .section-1-text2 {
   font-size: 1.2rem;
+}
+.section-1-text2.active {
+  animation: appear 1.4s ease-in-out alternate;
 }
 /* ----------------------------- */
 .section-2 {
@@ -135,7 +136,7 @@ section {
   background-image: url("/images/home\ bg03.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position-y: -60px;
+  background-position-y: -40px;
 }
 .section-2-container {
   width: 100%;
@@ -149,11 +150,28 @@ section {
   font-size: 5rem;
   font-family: inklipquid;
 }
+.section-2-text.active {
+  animation: appear 1s ease-in-out alternate;
+}
 .section-2-text2 {
   font-size: 1.2rem;
+}
+.section-2-text2.active {
+  animation: appear 1.4s ease-in-out alternate;
 }
 .showing {
   z-index: 1;
   opacity: 1;
   transform: none;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
