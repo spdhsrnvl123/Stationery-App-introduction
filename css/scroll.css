@@ -1,0 +1,11 @@
+#container-2 {
+  position: relative;
+  background-color: #f8eae1;
+}
+.scene .message {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

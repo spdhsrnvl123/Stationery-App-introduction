@@ -1,7 +1,7 @@
 const update = () => {
     
     const showingStatus = "showing"
-    const container = document.querySelector(".container")
+    const container = document.querySelector("#container")
     
     const carousel = () => {
         const currentScene = document.querySelector(`.${showingStatus}`)
@@ -63,7 +63,7 @@ const update = () => {
         }
     }
         carousel()
-        setInterval(carousel, 8000);
+        setInterval(carousel, 7000);
 }
 
 window.addEventListener("load", update);
