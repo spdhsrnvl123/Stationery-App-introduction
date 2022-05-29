@@ -1,38 +1,37 @@
-(() => {
-    const information = [
-        {
-            type : "normal",
-            scrollHeight: 0,
-            objs: {
-                container : document.querySelector("#container")
-            }
-        },
-        {
-            type: "scroll",
-            scrollHeight: 0,
-            objs: {
-                container: document.querySelector("#container-2")
-            }
-        },
-        {
-            type: "normal",
-            srollHeight: 0,
-            objs: {
-                container : document.querySelector("#container-3")
+window.onload = function () {
+    let scene = document.querySelectorAll(".scene");
+    let pageNum = 0;
+    let totalNum = scene.length;
+
+    window.addEventListener("scroll", () => {
+        let scrollY = window.scrollY;
+    console.log(scrollY);
+        
+        for (let i = 0; i < totalNum; i++){
+            if (scrollY > scene[i].offsetTop - window.innerHeight/3 && scrollY < scene[i].offsetTop - window.innerHeight/3 + scene[i].offsetHeight) {
+                pageNum = i;
             }
         }
-    ]
+        pageChangeFunc();
+        page_n_value();
 
-    const setHeight = () => {
-        for (let i = 0; i < information.length; i++){
-            if (information[i].type === "normal"){
-                information[i].scrollHeight = information[i].objs.container.offsetHeight;
-            } else if(information[i].type === "scroll") {
-                information[i].scrollHeight = window.innerHeight * 3
-            }
-            information[i].objs.container.style.height = `${information[i].scrollHeight}px`;
+    })
+
+    const page_n_value = () => {
+        if (scrollY < scene[0].offsetTop) {
+            scene[0].classList.remove("update");
+        } else if (scrollY > scene[2].offsetTop) {
+            scene[2].classList.remove("update");
         }
     }
-    window.addEventListener("load", setHeight);
-    window.addEventListener("resize", setHeight)
-})();
+
+    const pageChangeFunc = ()=>{
+        for (let i = 0; i < totalNum; i++){
+            scene[i].classList.remove("update");
+        }
+            scene[pageNum].classList.add("update");
+    }
+    
+    pageChangeFunc();
+    page_n_value();
+}

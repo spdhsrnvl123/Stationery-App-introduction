@@ -1,11 +1,27 @@
 #container-2 {
-  position: relative;
   background-color: #f8eae1;
 }
+.scene {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  /* border-top: 1px solid #333; */
+}
 .scene .message {
-  display: none;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 40%;
+  left: 20%;
+  opacity: 0;
+  width: 60%;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+.scene.update .message {
+  opacity: 1;
+}
+.scene .message img {
+  position: absolute;
+  width: 18vw;
+  top: -200%;
+  right: 0;
 }
