@@ -1,6 +1,3 @@
-.scene {
-  border-top: 5px dotted;
-}
 #container-1 {
   height: 100vh;
   background-color: #f8eae1;
@@ -15,15 +12,29 @@
   font-size: 1.2rem;
 }
 
-.message img {
+.message .app {
   position: absolute;
   top: -150%;
   right: 37%;
   width: 18vw;
+}
+.message .app::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-color: rgb(38, 14, 128);
 }
 
 #show-scene-1 #container-1 .message,
 #show-scene-2 #container-2 .message,
 #show-scene-3 #container-3 .message {
   display: block;
+}
+.message button,
+img {
+  background-color: #eeeeee;
+  margin-top: 0.5em;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
 }
