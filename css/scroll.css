@@ -1,3 +1,29 @@
-#container-2 {
+.scene {
+  border-top: 5px dotted;
+}
+#container-1 {
+  height: 100vh;
   background-color: #f8eae1;
+}
+.message {
+  position: fixed;
+  z-index: 999;
+  top: 35%;
+  left: 15%;
+  width: 100%;
+  display: none;
+  font-size: 1.2rem;
+}
+
+.message img {
+  position: absolute;
+  top: -150%;
+  right: 37%;
+  width: 18vw;
+}
+
+#show-scene-1 #container-1 .message,
+#show-scene-2 #container-2 .message,
+#show-scene-3 #container-3 .message {
+  display: block;
 }

@@ -1,7 +1,7 @@
 const update = () => {
     
     const showingStatus = "showing"
-    const container = document.querySelector("#container")
+    const container = document.querySelector("#container-0")
     
     const carousel = () => {
         const currentScene = document.querySelector(`.${showingStatus}`)
