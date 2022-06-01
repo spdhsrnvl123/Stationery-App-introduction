@@ -207,6 +207,7 @@ section {
   transform: scale(1.2);
 }
 footer {
+  position: relative;
   height: 14vh;
   background-color: #e4af99;
   color: rgb(101, 101, 101);
@@ -226,4 +227,12 @@ footer {
 }
 .text_container .text_2 p {
   padding-right: 94px;
+}
+.sns {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.sns a {
+  padding-right: 7px;
 }

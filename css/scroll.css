@@ -3,13 +3,14 @@
   background-color: #f8eae1;
 }
 .message {
+  display: none;
   position: fixed;
   z-index: 999;
   top: 35%;
   left: 15%;
   width: 100%;
-  display: none;
   font-size: 1.2rem;
+  opacity: 0;
 }
 
 .message .app {
@@ -30,8 +31,7 @@
 #show-scene-3 #container-3 .message {
   display: block;
 }
-.message button,
-img {
+.message button {
   background-color: #eeeeee;
   margin-top: 0.5em;
   border-radius: 50px;
