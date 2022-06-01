@@ -1,10 +1,10 @@
 @font-face {
   font-family: WildernessTypeface-Regular;
-  src: url("./font/WildernessTypeface-Regular.ttf");
+  src: url("../font/WildernessTypeface-Regular.ttf");
 }
 @font-face {
   font-family: inklipquid;
-  src: url("./font/inklipquid.ttf");
+  src: url("../font/inklipquid.ttf");
 }
 html {
   font-size: 1vw;
@@ -52,7 +52,7 @@ section {
 }
 .section-0 {
   color: red;
-  background-image: url("./images/home\ bg\ 01.jpg");
+  background-image: url("../images/home\ bg\ 01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -40px;
@@ -107,7 +107,7 @@ section {
 /* ----------------------------- */
 .section-1 {
   color: red;
-  background-image: url("./images/home\ bg\ 02.jpg");
+  background-image: url("../images/home\ bg\ 02.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: -40px;
@@ -134,7 +134,7 @@ section {
 /* ----------------------------- */
 .section-2 {
   color: red;
-  background-image: url("./images/home\ bg03.jpg");
+  background-image: url("../images/home\ bg03.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: -40px;
