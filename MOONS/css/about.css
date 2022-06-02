@@ -105,3 +105,18 @@ section {
 }
 
 /* --------------------------------------- */
+.section-1 {
+  position: relative;
+}
+.section-1 .left_leaf {
+  position: absolute;
+  top: 5%;
+  left: -10.5%;
+  transform: rotate(170deg);
+}
+.section-1 .right_leaf {
+  position: absolute;
+  right: -13%;
+  bottom: 3%;
+  transform: rotate(60deg);
+}
