@@ -14,7 +14,7 @@ header {
   position: fixed;
   z-index: 100;
   width: 100%;
-  color: red;
+  color: #144814;
 }
 .menu {
   display: flex;
@@ -45,7 +45,7 @@ section {
 .section-6,
 .section-7,
 .section-8 {
-  background-color: #f8eae1;
+  background-color: #f0f2ec;
 }
 .section-0 .text-0 {
   position: relative;
@@ -56,7 +56,7 @@ section {
   font-size: 18rem;
   letter-spacing: -1.3vw;
   width: 40%;
-  color: red;
+  color: #144814;
 }
 .section-0 .text-0 span {
   opacity: 0;
@@ -107,6 +107,7 @@ section {
 /* --------------------------------------- */
 .section-1 {
   position: relative;
+  color: #144814;
 }
 .section-1 .left_leaf {
   position: absolute;
@@ -119,4 +120,134 @@ section {
   right: -13%;
   bottom: 3%;
   transform: rotate(60deg);
+}
+.section-1 .note {
+  position: absolute;
+  top: 16%;
+  left: 17%;
+  width: 40vw;
+}
+.section-1 .life_log {
+  position: relative;
+  top: 27%;
+  left: 48%;
+  font-family: inklipquid;
+  font-size: 4rem;
+}
+.section-1 .life_log_under {
+  position: absolute;
+  top: 100%;
+  left: 12%;
+}
+.section-1 .life_log_box {
+  position: absolute;
+  top: 46%;
+  left: 52%;
+  padding: 1em;
+  letter-spacing: -1px;
+  background-color: #e0c2af8f;
+}
+/* --------------------------------- */
+.section-2 .text-0 {
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: WildernessTypeface-Regular;
+  font-size: 18rem;
+  letter-spacing: -1.3vw;
+  width: 40%;
+  color: #144814;
+}
+.section-2 .text-0 span {
+  opacity: 0;
+}
+.section-2 .text-0 span:nth-child(1) {
+  animation: represent 1.2s ease-out alternate infinite forwards;
+}
+.section-2 .text-0 span:nth-child(2) {
+  animation: represent 1.2s ease-out 0.1s alternate infinite forwards;
+}
+.section-2 .text-0 span:nth-child(3) {
+  animation: represent 1.2s ease-out 0.2s alternate infinite forwards;
+}
+.section-2 .text-0 span:nth-child(4) {
+  animation: represent 1.2s ease-out 0.3s alternate infinite forwards;
+}
+.section-2 .text-0 span:nth-child(5) {
+  animation: represent 1.2s ease-out 0.4s alternate infinite forwards;
+}
+.section-2 .text-0 .under span:nth-child(1) {
+  animation: represent 1.2s ease-out 0.5s alternate infinite forwards;
+}
+.section-2 .text-0 .under span:nth-child(2) {
+  animation: represent 1.2s ease-out 0.6s alternate infinite forwards;
+}
+.section-2 .text-0 .under span:nth-child(3) {
+  animation: represent 1.2s ease-out 0.7s alternate infinite forwards;
+}
+.section-2 .text-0 .under span:nth-child(4) {
+  animation: represent 1.2s ease-out 0.8s alternate infinite forwards;
+}
+.section-2 .text-0 .under span:nth-child(5) {
+  animation: represent 1.2s ease-out 0.9s alternate infinite forwards;
+}
+
+@keyframes represent {
+  to {
+    opacity: 1;
+  }
+  from {
+    opacity: 0;
+  }
+}
+
+.section-2 .text-0 .under {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}
+/* -------------------------------------------------------------- */
+.section-3,
+.section-4,
+.section-5 {
+  background-color: #f8eae1;
+}
+.section-box {
+  background-image: url("/images/orange\ box.png");
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+/* -------------------------------------------------------------- */
+footer {
+  position: relative;
+  height: 14vh;
+  background-color: #e4af99;
+  color: rgb(101, 101, 101);
+}
+.text_container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+.text_container .text_1,
+.text_2 {
+  display: flex;
+}
+.text_container .text_1 p {
+  padding-right: 30px;
+}
+.text_container .text_2 p {
+  padding-right: 94px;
+}
+.sns {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.sns a {
+  padding-right: 7px;
 }

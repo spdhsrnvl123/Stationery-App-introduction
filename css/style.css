@@ -210,6 +210,7 @@ section {
 .box_container .box img:hover {
   transform: scale(1.2);
 }
+/* --------------------------------------- */
 footer {
   position: relative;
   height: 14vh;
