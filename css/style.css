@@ -24,6 +24,7 @@ header {
 }
 .menu h1 {
   font-size: 2.2rem;
+  padding-left: 2em;
 }
 .menu_content {
   display: flex;
@@ -31,7 +32,7 @@ header {
   font-size: 1.2rem;
 }
 .menu_content li {
-  padding-right: 5em;
+  padding-right: 4em;
   font-weight: 500;
 }
 .menu_content li a {
