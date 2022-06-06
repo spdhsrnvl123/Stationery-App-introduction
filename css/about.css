@@ -41,7 +41,7 @@ header {
 /* ---------------------------------------- */
 section {
   height: 100vh;
-  border-top: 10px dotted;
+  /* border-top: 10px dotted; */
 }
 .section-0,
 .section-1,
@@ -319,6 +319,18 @@ section {
   text-align: center;
   font-size: 1.5rem;
 }
+.section-7 .container .content-1 {
+  margin-bottom: 10px;
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.section-7 .container .content-2 {
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  transition-delay: 0.3s;
+}
 /* --------------------------------------------------- */
 .brand-title {
   text-align: center;
@@ -337,6 +349,10 @@ section {
   /* height: inherit; */
   margin-top: 7em;
   margin-left: 2em;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s;
+  transition-delay: 0.2;
 }
 .color-box {
   position: relative;
