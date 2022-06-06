@@ -5,7 +5,7 @@
 .message {
   display: none;
   position: fixed;
-  z-index: 999;
+  z-index: 100;
   top: 35%;
   left: 15%;
   width: 100%;

@@ -41,7 +41,7 @@ header {
 /* ---------------------------------------- */
 section {
   height: 100vh;
-  /* border-top: 10px dotted; */
+  border-top: 10px dotted;
 }
 .section-0,
 .section-1,
@@ -242,12 +242,17 @@ section {
 .box-1 .text-box {
   position: absolute;
   left: 20%;
+  transform: translateX(-100px);
+  transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+  opacity: 0;
 }
 .box-1 img {
   position: absolute;
   width: 30%;
   top: 0;
   right: 22%;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
 }
 /* -------------------------------------------------------------- */
 .section-6 .text-0 {
@@ -304,7 +309,7 @@ section {
   /* background-color: red; */
 }
 .section-7 .container img {
-  width: 15vw;
+  width: 20vw;
 }
 .section-7 .container {
   width: 100%;
@@ -315,30 +320,43 @@ section {
   font-size: 1.5rem;
 }
 /* --------------------------------------------------- */
-.section-8 h1 {
+.brand-title {
   text-align: center;
   font-size: 2rem;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  font-weight: 550;
+  margin-top: 4em;
+}
+.brand-title-under {
+  letter-spacing: 1.5px;
+  line-height: 16px;
 }
 .color-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  /* height: inherit; */
+  margin-top: 7em;
+  margin-left: 2em;
 }
 .color-box {
   position: relative;
-  padding-right: 50px;
+  margin-right: 2.5em;
+}
+.color-box img {
+  width: 20vw;
 }
 .color-text {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 .color-box p {
   position: absolute;
-  top: 53%;
-  left: 44%;
-  font-size: 2rem;
+  top: 50%;
+  left: 50%;
+  font-size: 1.5rem;
   transform: translate(-50%, -50%);
+  font-weight: 500;
 }
 /* --------------------------------------------------- */
 footer {
