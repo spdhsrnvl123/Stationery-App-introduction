@@ -1,0 +1,78 @@
+@font-face {
+  font-family: WildernessTypeface-Regular;
+  src: url("../font/WildernessTypeface-Regular.ttf");
+}
+@font-face {
+  font-family: inklipquid;
+  src: url("../font/inklipquid.ttf");
+}
+html {
+  font-size: 1vw;
+  overflow-x: hidden;
+}
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  color: #144814;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.menu h1 a {
+  padding-left: 2em;
+
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: inherit;
+}
+.menu_content {
+  display: flex;
+  margin-top: 1em;
+  font-size: 1.2rem;
+}
+.menu_content li {
+  padding-right: 4em;
+  font-weight: 500;
+}
+/* ---------------------------------------- */
+section {
+  height: 100vh;
+  /* border-top: 10px dotted; */
+}
+/* --------------------------------------------------- */
+
+/* --------------------------------------------------- */
+footer {
+  position: relative;
+  height: 14vh;
+  background-color: #e4af99;
+  color: rgb(101, 101, 101);
+}
+.text_container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+.text_container .text_1,
+.text_2 {
+  display: flex;
+}
+.text_container .text_1 p {
+  padding-right: 30px;
+}
+.text_container .text_2 p {
+  padding-right: 94px;
+}
+.sns {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.sns a {
+  padding-right: 7px;
+}

@@ -25,6 +25,8 @@ header {
 .menu h1 {
   font-size: 2.2rem;
   padding-left: 2em;
+  color: inherit;
+  text-decoration: none;
 }
 .menu_content {
   display: flex;
