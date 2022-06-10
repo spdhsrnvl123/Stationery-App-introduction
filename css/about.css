@@ -38,6 +38,14 @@ header {
   padding-right: 4em;
   font-weight: 500;
 }
+.menu_content li a {
+  text-decoration: none;
+  color: inherit;
+}
+.menu_content li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 /* ---------------------------------------- */
 section {
   height: 100vh;

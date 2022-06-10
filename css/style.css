@@ -22,7 +22,7 @@ header {
   max-width: 80%;
   margin: 0 auto;
 }
-.menu h1 {
+.menu h1 a {
   font-size: 2.2rem;
   padding-left: 2em;
   color: inherit;
@@ -40,6 +40,10 @@ header {
 .menu_content li a {
   text-decoration: none;
   color: inherit;
+}
+.menu_content li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 /* ------------------------------------------------------ */
 #container-0 {
