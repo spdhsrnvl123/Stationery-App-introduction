@@ -53,7 +53,7 @@ section {
 }
 /* --------------------------------------------------- */
 .section-0 {
-  background-image: url("/images2/service\ bg.png");
+  background-image: url("../images2/service\ bg.png");
   background-size: cover;
 }
 .section-0-under {
