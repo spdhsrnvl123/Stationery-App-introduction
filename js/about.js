@@ -7,13 +7,28 @@ const update = () => {
     const color_container = document.querySelector(".color-container");
     let pageNum;
 
+    const pointWrap = document.querySelector(".pointWrap");
+    const pointWrap_li = document.querySelectorAll(".pointWrap li");
+
+    console.log(pointWrap);
+    console.log(pointWrap_li);
     //전역에 let pageNum = 0
+
+    const move = () => {
+        window.scrollTo(
+            {
+                top:section[1].offsetTop,
+                behavior:'smooth'
+            }
+        )
+    }
+    setTimeout(move, 2000);
 
     window.addEventListener("scroll", () => {
         let yOffset = window.pageYOffset;
 
         for (let i = 0; i < section.length; i++){
-            if (yOffset > section[i].offsetTop - window.innerHeight/3 && yOffset < section[i].offsetTop - window.innerHeight/3 + section[i].offsetHeight) {
+            if (yOffset > section[i].offsetTop - window.innerHeight/2 && yOffset < section[i].offsetTop - window.innerHeight/2 + section[i].offsetHeight) {
                 pageNum = i;
                 break;
             }
@@ -32,24 +47,29 @@ const update = () => {
                 break;
             case 2:
                 // console.log(pageNum);
+                pointWrap.classList.remove("appear");
                 break;
             case 3:
                 text_box[0].style.opacity = 1;
                 text_box[0].style.transform = `none`;
                 img[0].style.opacity = 1;
+                navigation();
                 break;
             case 4:
                 text_box[1].style.opacity = 1;
                 text_box[1].style.transform = `none`;
                 img[1].style.opacity = 1;
+                navigation();
                 break;
             case 5:
                 text_box[2].style.opacity = 1;
                 text_box[2].style.transform = `none`;
                 img[2].style.opacity = 1;
+                navigation();
                 break;
             case 6:
                 // console.log(pageNum);
+                pointWrap.classList.remove("appear");
                 break;
             case 7:
                 content_1.style.opacity = 1;
@@ -62,6 +82,14 @@ const update = () => {
                 color_container.style.transform = `none`;
                 break;
         }
+    }
+
+    const navigation = () => {
+        for (i = 0; i < pointWrap_li.length; i++){
+            pointWrap_li[i].classList.remove("active");
+        }
+        pointWrap.classList.add("appear");
+        pointWrap_li[pageNum - 3].classList.add("active");
     }
 
 }

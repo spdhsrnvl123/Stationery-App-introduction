@@ -52,6 +52,31 @@ section {
   /* border-top: 10px dotted; */
 }
 /* --------------------------------------------------- */
+.section-0 {
+  background-image: url("/images2/service\ bg.png");
+  background-size: cover;
+}
+.section-0-under {
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 30%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.section-0-under .service {
+  width: 17em;
+}
+
+.install-button {
+  display: flex;
+}
+.install-button img {
+  width: 10em;
+  cursor: pointer;
+}
 
 /* --------------------------------------------------- */
 footer {
