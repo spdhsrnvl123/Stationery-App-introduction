@@ -153,6 +153,7 @@ section {
   left: -10.5%;
   width: 40vw;
   transform: rotate(170deg);
+  animation: rotate 1.5s ease-in-out alternate infinite;
 }
 .section-1 .right_leaf {
   position: absolute;
@@ -160,12 +161,31 @@ section {
   bottom: 3%;
   width: 30vw;
   transform: rotate(62deg);
+  animation: rotate-2 1.5s ease-in-out alternate infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(170deg);
+  }
+  from {
+    transform: rotate(190deg);
+  }
+}
+@keyframes rotate-2 {
+  to {
+    transform: rotate(62deg);
+  }
+  from {
+    transform: rotate(82deg);
+  }
 }
 .section-1 .note {
   position: absolute;
   top: 16%;
   left: 20%;
   width: 40vw;
+  opacity: 0;
+  transition: all 1s;
 }
 .section-1 .life_log {
   position: relative;
@@ -173,6 +193,9 @@ section {
   left: 51%;
   font-family: inklipquid;
   font-size: 4rem;
+  opacity: 0;
+  transition: all 1s;
+  transition-delay: 0.3s;
 }
 .section-1 .life_log_under {
   position: absolute;
@@ -186,7 +209,12 @@ section {
   padding: 1em;
   letter-spacing: -1px;
   background-color: #e0c2af8f;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 1s;
+  transition-delay: 0.7s;
 }
+
 /* --------------------------------- */
 .section-2 .text-0 {
   position: relative;

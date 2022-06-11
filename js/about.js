@@ -5,15 +5,18 @@ const update = () => {
     const content_1 = document.querySelector(".content-1");
     const content_2 = document.querySelector(".content-2");
     const color_container = document.querySelector(".color-container");
+
     let pageNum;
 
     const pointWrap = document.querySelector(".pointWrap");
     const pointWrap_li = document.querySelectorAll(".pointWrap li");
 
-    console.log(pointWrap);
-    console.log(pointWrap_li);
     //전역에 let pageNum = 0
+    const note = document.querySelector(".note");
+    const life_log = document.querySelector(".life_log");
+    const life_log_box = document.querySelector(".life_log_box");
 
+    //2번째 section으로 이동.
     const move = () => {
         window.scrollTo(
             {
@@ -23,6 +26,30 @@ const update = () => {
         )
     }
     setTimeout(move, 2000);
+
+    const navigationhandler = (e) => {
+        for (let i = 0; i < pointWrap_li.length; i++){
+            if (e.target === pointWrap_li[i]) {
+                pointNumber = i;
+                window.scrollTo(
+                    {
+                        top: section[pointNumber+3].offsetTop,
+                        behavior: "smooth"
+                    }
+                )
+            }        
+        }
+    }
+
+    pointWrap.addEventListener("click", navigationhandler);
+
+    const navigation = () => {
+        for (i = 0; i < pointWrap_li.length; i++){
+            pointWrap_li[i].classList.remove("active");
+        }
+        pointWrap.classList.add("appear");
+        pointWrap_li[pageNum - 3].classList.add("active");
+    }
 
     window.addEventListener("scroll", () => {
         let yOffset = window.pageYOffset;
@@ -43,7 +70,10 @@ const update = () => {
                 // console.log(pageNum);
                 break;
             case 1:
-                // console.log(pageNum);
+                note.style.opacity = 1;
+                life_log.style.opacity = 1;
+                life_log_box.style.opacity = 1;
+                life_log_box.style.transform = "none";
                 break;
             case 2:
                 // console.log(pageNum);
@@ -84,13 +114,7 @@ const update = () => {
         }
     }
 
-    const navigation = () => {
-        for (i = 0; i < pointWrap_li.length; i++){
-            pointWrap_li[i].classList.remove("active");
-        }
-        pointWrap.classList.add("appear");
-        pointWrap_li[pageNum - 3].classList.add("active");
-    }
+
 
 }
 
