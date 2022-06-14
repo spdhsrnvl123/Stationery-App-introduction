@@ -216,6 +216,9 @@ section {
 }
 
 /* --------------------------------- */
+.section-2 {
+  background-color: #f8eae1;
+}
 .section-2 .text-0 {
   position: relative;
   top: 35%;
@@ -225,7 +228,7 @@ section {
   font-size: 18rem;
   letter-spacing: -1.3vw;
   width: 40%;
-  color: #144814;
+  color: #3c2007;
 }
 .section-2 .text-0 span {
   opacity: 0;
@@ -326,6 +329,7 @@ section {
   font-size: 18rem;
   letter-spacing: -1.3vw;
   width: 40%;
+  color: #3b2007;
 }
 .section-6 .text-0 span {
   opacity: 0;

@@ -1,0 +1,120 @@
+@font-face {
+  font-family: WildernessTypeface-Regular;
+  src: url("../font/WildernessTypeface-Regular.ttf");
+}
+@font-face {
+  font-family: inklipquid;
+  src: url("../font/inklipquid.ttf");
+}
+html {
+  font-size: 1vw;
+  overflow-x: hidden;
+}
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  color: #144814;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.menu h1 a {
+  font-size: 2.2rem;
+  padding-left: 2em;
+  color: inherit;
+  text-decoration: none;
+}
+.menu_content {
+  display: flex;
+  margin-top: 1em;
+  font-size: 1.2rem;
+}
+.menu_content li {
+  padding-right: 4em;
+  font-weight: 500;
+}
+.menu_content li a {
+  text-decoration: none;
+  color: inherit;
+}
+.menu_content li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* ---------------------------------------------------------------------------------- */
+section {
+  height: 100vh;
+  background-color: #f8eae1;
+  border-top: 10px dotted;
+}
+/* ---------------------------------------------------------------------------------- */
+
+.section-0 .text-0 {
+  position: absolute;
+  top: 17%;
+  left: 38%;
+  font-family: WildernessTypeface-Regular;
+  font-size: 22rem;
+  letter-spacing: -1.3vw;
+  /* background-color: blue; */
+  color: #144814;
+}
+.section-0 .text-0 span {
+  opacity: 0;
+}
+.section-0 .text-0 span:nth-child(1) {
+  animation: represent 2s ease-out alternate forwards;
+}
+.section-0 .text-0 span:nth-child(2) {
+  animation: represent 2s ease-out 0.2s alternate forwards;
+}
+.section-0 .text-0 span:nth-child(3) {
+  animation: represent 2s ease-out 0.3s alternate forwards;
+}
+.section-0 .text-0 span:nth-child(4) {
+  animation: represent 2s ease-out 0.4s alternate forwards;
+}
+.section-0 .text-0 span:nth-child(5) {
+  animation: represent 2s ease-out 0.5s alternate forwards;
+}
+@keyframes represent {
+  to {
+    opacity: 1;
+  }
+}
+
+/* ---------------------------------------------------------------------------------- */
+footer {
+  position: relative;
+  height: 14vh;
+  background-color: #e4af99;
+  color: rgb(101, 101, 101);
+}
+.text_container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+.text_container .text_1,
+.text_2 {
+  display: flex;
+}
+.text_container .text_1 p {
+  padding-right: 30px;
+}
+.text_container .text_2 p {
+  padding-right: 94px;
+}
+.sns {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+.sns a {
+  padding-right: 7px;
+}
