@@ -66,35 +66,40 @@ section {
 
 .section-0-under .service {
   position: absolute;
-  top: 10%;
+  top: 3%;
   left: 27%;
-  font-size: 15rem;
+  font-size: 16vw;
   color: #144814;
   font-family: WildernessTypeface-Regular;
 }
 .section-0-under .intro {
   position: absolute;
   bottom: 0;
-  left: 18%;
-  width: 25em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 26vw;
+  height: 23vw;
 }
 .section-0-under .first-text {
   position: absolute;
-  top: 41%;
-  left: 21.5%;
+  top: 36%;
+  left: 24%;
+  font-size: 1vw;
   color: #144814;
   text-align: center;
+  font-family: WildernessTypeface-Regular;
 }
 .section-0-under .install-button {
   display: flex;
   position: absolute;
-  top: 48%;
-  left: 22%;
+  top: 44%;
+  transform: translate(14%, 0);
 }
 .section-0-under .install-button img {
-  padding: 0.5em;
-  width: 10em;
+  width: 15vw;
+  height: 4vw;
   cursor: pointer;
+  padding-right: 25px;
 }
 
 /* --------------------------------------------------- */
@@ -108,60 +113,60 @@ section {
 }
 .section-1-under .intro {
   position: absolute;
-  top: 14%;
-  left: 16%;
-  width: 20em;
+  top: 10%;
+  left: 15%;
+  width: 22vw;
+  height: 41vw;
 }
 
 .section-1-under > img:nth-child(1) {
   position: absolute;
-  top: -9%;
-  left: 5%;
-  width: 320px;
+  top: -14%;
+  left: 4%;
+  width: 18vw;
+  height: 18vw;
 }
 .section-1-under > img:nth-child(2) {
   position: absolute;
   top: 3%;
-  right: 15%;
-  width: 130px;
+  right: 10%;
+  width: 8vw;
+  height: 8vw;
 }
 .section-1-under > img:nth-child(3) {
   position: absolute;
-  bottom: -8%;
-  right: -2%;
-  width: 310px;
+  bottom: -12%;
+  right: -4%;
+  width: 25vw;
+  height: 25vw;
 }
 .section-1-under .box-1 {
   position: absolute;
-  top: 30%;
-  right: 26%;
+  height: 50%;
+  top: 28%;
+  right: 20%;
 }
-.section-1-under .box-1 .first-text {
-  font-size: 3rem;
+.section-1-under .box-1 .first-text-1 {
+  font-size: 4vw;
   font-family: inklipquid;
-  margin-bottom: 7px;
 }
 .section-1-under .box-1 img {
-  font-size: 3rem;
-  font-family: inklipquid;
-  padding-left: 20px;
-  width: 2em;
+  width: 7vw;
+  height: 7vw;
+  position: absolute;
+  top: 17%;
+  left: 5%;
 }
-.section-1-under .box-1 .second-text {
-  margin-top: 60px;
-  padding-left: 16px;
+.section-1-under .box-1 .second-text-1 {
+  position: absolute;
+  bottom: 22%;
+  left: 5%;
 }
 
 /* --------------------------------------------------- */
 .number {
-  font-size: 7rem;
+  font-size: 6vw;
   font-family: WildernessTypeface-Regular;
-}
-.first-text {
-  margin-top: -40px;
-}
-.second-text {
-  margin-top: 40px;
 }
 /* --------------------------------------------------- */
 .section-2-under {
@@ -183,14 +188,14 @@ section {
 .section-2-under > img:nth-child(1) {
   position: absolute;
   top: 15%;
-  left: 15%;
-  width: 150px;
+  left: 15.5%;
+  width: 7.5vw;
 }
 .section-2-under > img:nth-child(2) {
   position: absolute;
-  top: 52%;
+  top: 45%;
   right: 32%;
-  width: 300px;
+  width: 19vw;
 }
 /* --------------------------------------------------- */
 .section-3 {
@@ -223,30 +228,34 @@ section {
   z-index: 99;
   width: 20em;
   top: 63%;
-  left: 22.1%;
+  left: 21.8%;
 }
 .section-4-under img:nth-child(2) {
   position: absolute;
   z-index: 99;
   width: 20em;
   top: 49%;
-  right: 21.2%;
+  right: 20.8%;
 }
 .section-4-under .writing {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 23em;
+  width: 28em;
+  height: 60%;
 }
 .section-4-under .box-4 {
   position: absolute;
-  top: 8%;
+  top: 17%;
   left: 38%;
   text-align: center;
 }
-.section-4-under .first-text {
-  font-size: 1.8rem;
+.section-4-under .box-4 .number {
+}
+.section-4-under .box-4 .second-text-4 {
+}
+.section-4-under .first-text-4 {
 }
 /* --------------------------------------------------- */
 .section-5 {
