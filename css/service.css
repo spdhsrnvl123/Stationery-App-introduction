@@ -93,7 +93,8 @@ section {
   display: flex;
   position: absolute;
   top: 44%;
-  transform: translate(14%, 0);
+  left: 40%;
+  transform: translate(-50%, 0);
 }
 .section-0-under .install-button img {
   width: 15vw;
