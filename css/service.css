@@ -154,10 +154,12 @@ section {
 
 /* --------------------------------------------------- */
 .number {
-  font-size: 5rem;
-  font-family: inklipquid;
+  font-size: 7rem;
+  font-family: WildernessTypeface-Regular;
 }
-
+.first-text {
+  margin-top: -40px;
+}
 .second-text {
   margin-top: 40px;
 }
@@ -175,7 +177,7 @@ section {
 }
 .section-2-under .box-2 {
   position: absolute;
-  top: 18%;
+  top: 14%;
   left: 20%;
 }
 .section-2-under > img:nth-child(1) {
@@ -220,20 +222,21 @@ section {
   position: absolute;
   z-index: 99;
   width: 20em;
-  top: 53%;
-  left: 21.7%;
+  top: 63%;
+  left: 22.1%;
 }
 .section-4-under img:nth-child(2) {
   position: absolute;
   z-index: 99;
   width: 20em;
-  top: 33%;
-  right: 21.4%;
+  top: 49%;
+  right: 21.2%;
 }
 .section-4-under .writing {
   position: absolute;
-  top: 35%;
-  left: 38%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
   width: 23em;
 }
 .section-4-under .box-4 {
@@ -294,9 +297,9 @@ section {
 }
 .section-7-behind {
   background-image: url(../images2/09.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -282%;
+  background-position-y: 44.1vw;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -325,7 +328,7 @@ section {
 /* --------------------------------------------------- */
 .section-8 {
   background-image: url(../images2/09.jpg);
-  background-size: cover;
+  background-size: 100vw;
   width: 100%;
   background-repeat: no-repeat;
   background-position-y: -170px;
