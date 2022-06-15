@@ -256,29 +256,38 @@ section {
   width: 100%;
   height: 100%;
 }
-.section-4-under img:nth-child(1) {
-  position: absolute;
-  z-index: 99;
-  width: 28vw;
-  height: 9vw;
-  top: 58%;
-  left: 13.2%;
-}
-.section-4-under img:nth-child(2) {
-  position: absolute;
-  z-index: 99;
-  width: 28vw;
-  height: 9vw;
-  top: 39%;
-  right: 11.8%;
-}
+
 .section-4-under .writing {
   position: absolute;
-  bottom: 0;
+  bottom: -0.5%;
   left: 50%;
   transform: translate(-50%, 0);
   width: 27vw;
+  /* background-color: red; */
 }
+.section-4-under .writing img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section-4-under .writing img:nth-child(2) {
+  position: absolute;
+  z-index: 99;
+  width: 28vw;
+  height: 9vw;
+  top: 31%;
+  right: 82%;
+}
+.section-4-under .writing img:nth-child(3) {
+  position: absolute;
+  z-index: 99;
+  width: 28vw;
+  height: 9vw;
+  top: 2%;
+  left: 87.5%;
+}
+
 .section-4-under .box-4 {
   position: absolute;
   top: 28%;
