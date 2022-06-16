@@ -47,7 +47,7 @@ header {
 }
 /* ---------------------------------------- */
 section {
-  height: 100vh;
+  height: 53vw;
   /* border-top: 5px dotted; */
 }
 /* --------------------------------------------------- */
@@ -57,34 +57,35 @@ section {
 }
 .section-0-under {
   position: relative;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  width: 40%;
+  width: 100%;
   height: 100%;
+}
+
+.section-0-under .intro {
+  position: absolute;
+  bottom: -0.5%;
+  left: 50%;
+  width: 26vw;
+  transform: translate(-50%, 0);
 }
 
 .section-0-under .service {
   position: absolute;
-  top: 3%;
-  left: 27%;
+  top: -115%;
+  left: 50%;
+  transform: translate(-50%, 0%);
   font-size: 16vw;
   color: #144814;
   font-family: WildernessTypeface-Regular;
 }
-.section-0-under .intro {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 26vw;
-  height: 23vw;
-}
+
 .section-0-under .first-text {
   position: absolute;
-  top: 36%;
-  left: 24%;
+  top: -44%;
+  left: 50%;
+  transform: translate(-50%, 0%);
   font-size: 1vw;
+  width: 100vw;
   color: #144814;
   text-align: center;
   font-family: WildernessTypeface-Regular;
@@ -92,15 +93,17 @@ section {
 .section-0-under .install-button {
   display: flex;
   position: absolute;
-  top: 44%;
-  left: 40%;
+  top: -25%;
+  width: 100%;
+  left: 30%;
+  width: 80%;
   transform: translate(-50%, 0);
 }
 .section-0-under .install-button img {
   width: 15vw;
   height: 4vw;
   cursor: pointer;
-  padding-right: 25px;
+  padding-right: 1.3vw;
 }
 
 /* --------------------------------------------------- */
@@ -225,9 +228,9 @@ section {
 }
 .section-3-under img {
   position: absolute;
+  bottom: 0;
   left: 16.5%;
   width: 28vw;
-  height: 100vh;
 }
 .section-3-under .box-3 {
   position: absolute;
@@ -264,12 +267,6 @@ section {
   left: 50%;
   transform: translate(-50%, 0);
   width: 27vw;
-  /* background-color: red; */
-}
-.section-4-under .writing img {
-  position: relative;
-  width: 100%;
-  height: 100%;
 }
 
 .section-4-under .writing img:nth-child(2) {
@@ -313,6 +310,7 @@ section {
   position: absolute;
   top: 70%;
   left: 11%;
+  width: 100%;
 }
 /* --------------------------------------------------- */
 .section-5 {
@@ -328,7 +326,6 @@ section {
   bottom: 0;
   left: 14%;
   width: 33em;
-  height: 80vh;
 }
 .section-5-under .box-5 {
   position: absolute;
