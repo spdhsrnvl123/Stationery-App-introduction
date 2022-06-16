@@ -21,7 +21,9 @@ const update = () => {
 
         },
         {
-
+            sens: document.querySelector(".section-4-under .writing .sens"),
+            group01: document.querySelector(".section-4-under .writing .group01"),
+            group02 : document.querySelector(".section-4-under .writing .group02")
         },
         {
 
@@ -66,12 +68,22 @@ const update = () => {
                 break;
             case 4:
                 section[pageNum].classList.add("active");
+                element[pageNum].sens.style.opacity = 1;
+                element[pageNum].sens.style.transform = 'none';
+                element[pageNum].group01.style.opacity = 1;
+                element[pageNum].group01.style.transform = 'none';
+                element[pageNum].group02.style.opacity = 1;
+                element[pageNum].group02.style.transform = 'none';
                 break;
             case 5:
+                section[pageNum].classList.add("active");
                 break;
             case 6:
+                section[pageNum].classList.add("active");
                 break;
             case 7:
+                section[pageNum].classList.add("active");
+
                 break;
             case 8:
                 break;
