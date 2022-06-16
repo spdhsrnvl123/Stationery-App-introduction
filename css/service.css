@@ -330,14 +330,63 @@ section {
 .section-5-under .searchBox {
   position: absolute;
   left: 16.5%;
-  bottom: -0;
+  bottom: -0.5%;
   width: 28vw;
+}
+.section-5-under .searchBox img:nth-child(2) {
+  position: absolute;
+  width: 9.5vw;
+  top: 8%;
+  right: -9%;
+}
+.section-5-under .searchBox img:nth-child(3) {
+  position: absolute;
+  width: 9vw;
+  top: 35%;
+  right: -7.8%;
+}
+.section-5-under .searchBox img:nth-child(4) {
+  position: absolute;
+  width: 10vw;
+  top: -8%;
+  left: 32%;
+}
+.section-5-under .searchBox img:nth-child(5) {
+  position: absolute;
+  width: 10vw;
+  top: 7.5%;
+  left: -10.3%;
+}
+.section-5-under .searchBox img:nth-child(6) {
+  position: absolute;
+  width: 10vw;
+  top: 44%;
+  left: -17%;
 }
 
 .section-5-under .box-5 {
   position: absolute;
-  top: 24%;
-  right: 30%;
+  top: 27%;
+  right: 20%;
+  height: 50%;
+  width: 30vw;
+}
+.section-5-under .box-5 .number-5 {
+  font-size: 8vw;
+  font-family: WildernessTypeface-Regular;
+}
+.section-5-under .box-5 .first-text-5 {
+  position: absolute;
+  top: 28%;
+  font-size: 2vw;
+  width: 100vw;
+}
+.section-5-under .box-5 .second-text-5 {
+  font-size: 1vw;
+  position: absolute;
+  top: 57%;
+  left: 0.5%;
+  width: 100vw;
 }
 /* --------------------------------------------------- */
 
@@ -382,16 +431,7 @@ section {
   background-size: 100vw;
   background-repeat: no-repeat;
 }
-.section-7-behind {
-  background-image: url(../images2/09.jpg);
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  background-position-y: 46.4vw;
-}
+
 .section-7-under {
   position: relative;
   width: 100%;
@@ -432,11 +472,20 @@ section {
   position: absolute;
   top: 55%;
 }
+.section-7-behind {
+  background-image: url(../images2/09.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+  z-index: -1;
+  background-position-y: 47vw;
+}
 /* --------------------------------------------------- */
 .section-8 {
   background-image: url(../images2/09.jpg);
   background-size: 100vw;
-  width: 100vw;
   background-repeat: no-repeat;
   background-position-y: -6vw;
 }
