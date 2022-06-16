@@ -10,6 +10,12 @@ html {
   font-size: 1vw;
   overflow-x: hidden;
 }
+@media (max-width: 500px) {
+  html {
+    font-size: 0.4vw;
+    overflow-x: hidden;
+  }
+}
 header {
   position: fixed;
   z-index: 100;
@@ -19,7 +25,7 @@ header {
 .menu {
   display: flex;
   justify-content: space-between;
-  max-width: 80vw;
+  max-width: 80%;
   margin: 0 auto;
 }
 .menu h1 a {
@@ -68,16 +74,39 @@ section {
   width: 26vw;
   transform: translate(-50%, 0);
 }
+.section-0-under .intro > img:nth-child(1) {
+  opacity: 0;
+  transform: translateY(180px);
+  animation: appear-0 1.7s 1s ease-in-out alternate forwards;
+}
+@keyframes appear-0 {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 
 .section-0-under .service {
   position: absolute;
   top: -115%;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 20%);
   font-size: 16vw;
   color: #144814;
   font-family: WildernessTypeface-Regular;
+  animation: appear 0.7s ease-in-out alternate forwards;
+  opacity: 0;
 }
+
+@keyframes appear {
+  to {
+    top: -115%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    opacity: 1;
+  }
+}
+
 @media (min-width: 2000px) {
   .section-0-under .service {
     top: -125%;
@@ -92,8 +121,11 @@ section {
   width: 100vw;
   color: #144814;
   text-align: center;
+  opacity: 0;
   font-family: WildernessTypeface-Regular;
+  animation: appear2 0.7s ease-in-out 0.5s alternate forwards;
 }
+
 .section-0-under .install-button {
   display: flex;
   position: absolute;
@@ -101,7 +133,14 @@ section {
   width: 100%;
   left: 30%;
   width: 80%;
+  opacity: 0;
   transform: translate(-50%, 0);
+  animation: appear2 0.9s ease-in-out 0.9s alternate forwards;
+}
+@keyframes appear2 {
+  to {
+    opacity: 1;
+  }
 }
 .section-0-under .install-button img {
   width: 15vw;
@@ -133,6 +172,7 @@ section {
   left: 4%;
   width: 18vw;
   height: 18vw;
+  animation: enlarge 2s ease-in-out alternate infinite;
 }
 .section-1-under > img:nth-child(2) {
   position: absolute;
@@ -140,6 +180,7 @@ section {
   right: 10%;
   width: 8vw;
   height: 8vw;
+  animation: enlarge 2s ease-in-out alternate infinite;
 }
 .section-1-under > img:nth-child(3) {
   position: absolute;
@@ -147,6 +188,16 @@ section {
   right: -4%;
   width: 25vw;
   height: 25vw;
+  animation: enlarge 2s ease-in-out alternate infinite;
+}
+
+@keyframes enlarge {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(10vw);
+  }
 }
 .section-1-under .box-1 {
   position: absolute;
@@ -213,6 +264,7 @@ section {
   left: 15.5%;
   width: 10vw;
   height: 10vw;
+  animation: enlarge 2s ease-in-out alternate infinite;
 }
 .section-2-under > img:nth-child(2) {
   position: absolute;
@@ -220,6 +272,7 @@ section {
   right: 32%;
   width: 20vw;
   height: 20vw;
+  animation: enlarge 2s ease-in-out alternate infinite;
 }
 /* --------------------------------------------------- */
 .section-3 {
