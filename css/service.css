@@ -196,9 +196,11 @@ section {
 
 @keyframes enlarge {
   from {
+    opacity: 1;
     transform: translate(0);
   }
   to {
+    opacity: 0;
     transform: translate(10vw);
   }
 }
