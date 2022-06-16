@@ -19,7 +19,7 @@ header {
 .menu {
   display: flex;
   justify-content: space-between;
-  max-width: 80%;
+  max-width: 80vw;
   margin: 0 auto;
 }
 .menu h1 a {
