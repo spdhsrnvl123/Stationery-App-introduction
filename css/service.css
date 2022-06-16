@@ -78,7 +78,11 @@ section {
   color: #144814;
   font-family: WildernessTypeface-Regular;
 }
-
+@media (min-width: 2000px) {
+  .section-0-under .service {
+    top: -125%;
+  }
+}
 .section-0-under .first-text {
   position: absolute;
   top: -44%;
@@ -237,7 +241,7 @@ section {
   top: 20%;
   left: 52%;
   height: 50%;
-  width: 30%;
+  width: 30vw;
 }
 .section-3-under .box-3 .number-3 {
   font-size: 8vw;
@@ -267,50 +271,52 @@ section {
   left: 50%;
   transform: translate(-50%, 0);
   width: 27vw;
+  /* background-color: red; */
 }
 
-.section-4-under .writing img:nth-child(2) {
+.section-4-under .writing .group01 {
   position: absolute;
   z-index: 99;
   width: 28vw;
   height: 9vw;
-  top: 31%;
+  top: 47%;
   right: 82%;
 }
-.section-4-under .writing img:nth-child(3) {
+.section-4-under .writing .group02 {
   position: absolute;
   z-index: 99;
   width: 28vw;
   height: 9vw;
-  top: 2%;
+  top: 25%;
   left: 87.5%;
 }
 
-.section-4-under .box-4 {
-  position: absolute;
-  top: 28%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 30%;
-  height: 30%;
-}
-.section-4-under .box-4 .number-4 {
+.section-4-under .writing .number-4 {
   font-size: 8vw;
   font-family: WildernessTypeface-Regular;
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
-.section-4-under .first-text-4 {
+.section-4-under .writing .first-text-4 {
   font-size: 2vw;
   position: absolute;
-  top: 45%;
-  left: 10%;
+  top: -18%;
+  left: 50%;
+  width: 100vw;
+  text-align: center;
+  transform: translate(-50%, 0);
 }
-.section-4-under .box-4 .second-text-4 {
+.section-4-under .writing .second-text-4 {
   font-size: 1vw;
   position: absolute;
-  top: 70%;
-  left: 11%;
-  width: 100%;
+  top: -7%;
+  left: 50%;
+  text-align: center;
+  /* background-color: red; */
+  width: 100vw;
+  transform: translate(-50%, 0);
 }
 /* --------------------------------------------------- */
 .section-5 {
@@ -321,12 +327,13 @@ section {
   width: 100%;
   height: 100%;
 }
-.section-5-under img {
+.section-5-under .searchBox {
   position: absolute;
-  bottom: 0;
-  left: 14%;
-  width: 33em;
+  left: 16.5%;
+  bottom: -0;
+  width: 28vw;
 }
+
 .section-5-under .box-5 {
   position: absolute;
   top: 24%;
