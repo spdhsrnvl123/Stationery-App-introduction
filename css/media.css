@@ -133,23 +133,15 @@ section {
   height: 56.8vw;
 }
 
-.section-2 .container {
-  display: flex;
-  position: absolute;
-  top: 25%;
-  left: 32%;
-  width: 100%;
-  padding-left: 5.9vw;
-}
 .section-2 .text-box {
   position: absolute;
   top: 26%;
-  left: 24%;
+  left: 18.8%;
 }
 .section-2 .button-box {
   position: absolute;
-  bottom: 25%;
-  left: 24.4%;
+  bottom: 19%;
+  left: 19.2%;
 }
 .section-2 .button-box button {
   font-size: 2.3vw;
@@ -164,20 +156,27 @@ section {
   left: 100%;
   border-left: 0;
 }
+.section-2 .container {
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 37.9%;
+}
 .section-2 .container .box {
   position: relative;
-  width: 20.1vw;
-  height: 29.6vw;
-  margin-right: 2vw;
-  background-color: red;
+  width: 22.1vw;
+  height: 31.6vw;
+  /* margin-right: 0.4vw; */
+  /* background-color: red; */
 }
 .section-2 .container .box img {
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  height: inherit;
 }
+
 .section-2 .container .box .box_inner h4 {
   position: absolute;
-  top: 60%;
+  top: 63%;
   left: 9%;
   font-weight: 360;
   font-size: 1.2vw;
@@ -185,13 +184,13 @@ section {
 
 .section-2 .container .box .box_inner p {
   position: absolute;
-  bottom: 15%;
+  bottom: 12%;
   left: 10%;
   font-size: 0.8vw;
 }
 .section-2 .container .box .box_inner .inner_3 {
   position: absolute;
-  bottom: 19%;
+  bottom: 16%;
   left: 10%;
   font-size: 0.8vw;
 }
@@ -212,10 +211,17 @@ section {
   top: 28%;
   left: 19.4%;
 }
+.section-3 .text-box-2 div {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 0.84vw;
+  width: 22vw;
+}
 .section-3 .button-box {
   position: absolute;
-  bottom: 25%;
-  left: 24.4%;
+  bottom: 20%;
+  left: 19.6%;
 }
 .section-3 .button-box button {
   font-size: 2.3vw;
@@ -234,16 +240,14 @@ section {
   display: flex;
   position: absolute;
   top: 28%;
-  left: 33%;
-  width: 100%;
-  padding-left: 5.9vw;
+  left: 37.9%;
 }
 .section-3 .container .box {
   position: relative;
   width: 49.7vw;
   height: 27.7vw;
+  margin-right: 6.9vw;
   background-color: red;
-  /* margin-right: 6.9vw; */
 }
 .section-3 .container .box img:nth-child(1) {
   width: inherit;
@@ -259,27 +263,56 @@ section {
   transform: translate(-50%, -50%);
 }
 /* ---------------------------------------------------------------------------------- */
-
+.section-4 {
+  position: relative;
+}
 .section-4 .container {
   display: flex;
-  width: 100%;
-  align-items: center;
-  height: inherit;
-  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .section-4 .container .box {
-  padding: 2em;
-  margin: 0.5em;
-  width: 30vw;
-  height: 50%;
+  width: 34.2vw;
+  height: 25.3vw;
+  margin-right: 1.1vw;
 }
-.section-4 .container .box {
+.section-4 .container .box:nth-child(1) {
   background-image: url("../images3/picture\ 01.png");
   background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+.section-4 .container .box h1 {
+  position: absolute;
+  top: 28.5%;
+  left: 67.5%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+  width: inherit;
+}
+.section-4 .container .box p {
+  position: absolute;
+  top: 55.5%;
+  left: 67.5%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2vw;
+  width: inherit;
+}
+.section-4 .container .box img {
+  position: absolute;
+  top: 77.8%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  width: 8vw;
+  cursor: pointer;
 }
 .section-4 .container .box:nth-child(2) {
   background-image: url("../images3/picture\ 02.png");
   background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
 }
 /* ---------------------------------------------------------------------------------- */
 footer {
