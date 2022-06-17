@@ -52,7 +52,9 @@ section {
   /* border-top: 10px dotted; */
 }
 /* ---------------------------------------------------------------------------------- */
-
+.section-0 {
+  background-color: #f0f2ec;
+}
 .section-0 .text-0 {
   position: absolute;
   top: 45%;
@@ -89,6 +91,7 @@ section {
 /* ---------------------------------------------------------------------------------- */
 .section-1 {
   position: relative;
+  background-color: #f0f2ec;
 }
 .section-1 .penPhrases {
   position: absolute;
