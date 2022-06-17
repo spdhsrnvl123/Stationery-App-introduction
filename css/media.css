@@ -55,16 +55,12 @@ section {
 
 .section-0 .text-0 {
   position: absolute;
-  /* top: 17%; */
-  /* left: 38%; */
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: WildernessTypeface-Regular;
-  /* font-size: 22rem; */
-  font-size: 17rem;
+  font-size: 22rem;
   letter-spacing: -1.3vw;
-  /* background-color: blue; */
   color: #144814;
 }
 .section-0 .text-0 span {
@@ -173,6 +169,11 @@ section {
   width: 20.1vw;
   height: 29.6vw;
   margin-right: 2vw;
+  background-color: red;
+}
+.section-2 .container .box img {
+  width: 100%;
+  height: 100%;
 }
 .section-2 .container .box .box_inner h4 {
   position: absolute;
@@ -235,20 +236,27 @@ section {
   top: 28%;
   left: 33%;
   width: 100%;
+  padding-left: 5.9vw;
 }
 .section-3 .container .box {
   position: relative;
+  width: 49.7vw;
+  height: 27.7vw;
+  background-color: red;
+  /* margin-right: 6.9vw; */
+}
+.section-3 .container .box img:nth-child(1) {
+  width: inherit;
+  height: inherit;
 }
 .section-3 .container .box img:nth-child(2) {
   position: absolute;
   z-index: 10;
+  width: 7.4vw;
+  height: 7.4vw;
   top: 44.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.section-3 .container .box img:nth-child(1) {
-  position: relative;
-  width: 40vw;
 }
 /* ---------------------------------------------------------------------------------- */
 
