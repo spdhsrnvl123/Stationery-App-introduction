@@ -234,23 +234,43 @@ section {
   height: 3.1vw;
   font-weight: 100;
 }
+.section-3 .prev:hover {
+  background-color: white;
+}
+.section-3 .next:hover {
+  background-color: white;
+}
 .section-3 .button-box button:nth-child(2) {
   position: absolute;
   left: 100%;
   border-left: 0;
 }
 .section-3 .container {
+  position: relative;
+  top: 29%;
+  left: 40%;
+  width: 99.4vw;
+  height: 27.7vw;
+  /* overflow: hidden; */
+  /* background-color: red; */
+}
+.section-3 .container .content {
   display: flex;
   position: absolute;
-  top: 28%;
-  left: 37.9%;
+  top: 0;
+  left: 0;
+  width: 99.4vw;
+  transition: all 1s;
+  /* transform: translateX(-49.7vw); */
+}
+.section-3 .container .content-inner {
+  width: 113.2vw;
 }
 .section-3 .container .box {
   position: relative;
   width: 49.7vw;
   height: 27.7vw;
   margin-right: 6.9vw;
-  background-color: red;
 }
 .section-3 .container .box img:nth-child(1) {
   width: inherit;
