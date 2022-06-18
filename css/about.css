@@ -74,7 +74,7 @@ header {
 
 /* ---------------------------------------- */
 section {
-  height: 53vw;
+  height: 53.4vw;
   /* border-top: 10px dotted; */
 }
 .section-0,
@@ -299,7 +299,7 @@ section {
 .section-box {
   background-image: url("/images/orange\ box.png");
   width: 32.9vw;
-  height: 53vw;
+  height: 53.4vw;
   position: absolute;
   right: 0;
 }
