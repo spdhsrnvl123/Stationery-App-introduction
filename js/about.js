@@ -55,7 +55,7 @@ const update = () => {
         let yOffset = window.pageYOffset;
 
         for (let i = 0; i < section.length; i++){
-            if (yOffset > section[i].offsetTop - window.innerHeight/2 && yOffset < section[i].offsetTop - window.innerHeight/2 + section[i].offsetHeight) {
+            if (yOffset > section[i].offsetTop && yOffset < section[i].offsetTop + section[i].offsetHeight) {
                 pageNum = i;
                 break;
             }
