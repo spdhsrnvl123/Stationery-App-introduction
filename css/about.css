@@ -421,7 +421,7 @@ section {
 .brand-title {
   text-align: center;
   font-size: 2.6vw;
-  font-weight: 550;
+  font-weight: 600;
   padding-top: 4em;
 }
 .brand-title-under {
@@ -451,7 +451,7 @@ section {
 .color-text {
   text-align: center;
   font-size: 1.8vw;
-  font-weight: 550;
+  font-weight: 500;
   margin-bottom: 1.8vw;
 }
 .color-box p {
@@ -460,7 +460,7 @@ section {
   left: 50%;
   font-size: 1.8vw;
   transform: translate(-50%, -50%);
-  font-weight: 550;
+  font-weight: 500;
 }
 /* --------------------------------------------------- */
 footer {
