@@ -6,6 +6,11 @@
   font-family: inklipquid;
   src: url("../font/inklipquid.ttf");
 }
+@font-face {
+  font-family: pretendard;
+  src: url("../font/PretendardVariable.ttf");
+}
+
 html {
   font-size: 1vw;
   overflow-x: hidden;
@@ -421,7 +426,7 @@ section {
 .brand-title {
   text-align: center;
   font-size: 2.6vw;
-  font-weight: 600;
+  font-weight: 700;
   padding-top: 4em;
 }
 .brand-title-under {
@@ -450,17 +455,19 @@ section {
 }
 .color-text {
   text-align: center;
-  font-size: 1.8vw;
-  font-weight: 500;
+  font-size: 2.1vw;
+  font-family: pretendard;
+  font-weight: 600;
   margin-bottom: 1.8vw;
 }
 .color-box p {
   position: absolute;
   top: 56%;
   left: 50%;
-  font-size: 1.8vw;
+  font-size: 2.1vw;
+  font-family: pretendard;
+  font-weight: 600;
   transform: translate(-50%, -50%);
-  font-weight: 500;
 }
 /* --------------------------------------------------- */
 footer {
