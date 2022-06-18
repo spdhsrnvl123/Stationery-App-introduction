@@ -217,7 +217,7 @@ section {
   width: 30.5vw;
   height: 16vw;
   padding: 0.8vw;
-  background-color: #e0c2af8f;
+  background-color: #759774;
   opacity: 0;
   transform: translateX(100px);
   transition: all 1s;
@@ -313,6 +313,7 @@ section {
 .section-5 .box-1 {
   position: relative;
   top: 22%;
+  color: #3b2007;
 }
 
 /* --------------------------------- */
