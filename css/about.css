@@ -74,8 +74,8 @@ header {
 
 /* ---------------------------------------- */
 section {
-  height: 100vh;
-  border-top: 10px dotted;
+  height: 53vw;
+  /* border-top: 10px dotted; */
 }
 .section-0,
 .section-1,
