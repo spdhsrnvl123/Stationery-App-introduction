@@ -221,11 +221,13 @@ section {
   font-size: 0.84vw;
   width: 22vw;
 }
+
 .section-3 .button-box {
   position: absolute;
   bottom: 20%;
   left: 19.6%;
 }
+
 .section-3 .button-box button {
   font-size: 2.3vw;
   color: rgb(205, 106, 106);
@@ -234,17 +236,21 @@ section {
   height: 3.1vw;
   font-weight: 100;
 }
+
 .section-3 .prev:hover {
   background-color: white;
 }
+
 .section-3 .next:hover {
   background-color: white;
 }
+
 .section-3 .button-box button:nth-child(2) {
   position: absolute;
   left: 100%;
   border-left: 0;
 }
+
 .section-3 .container {
   position: relative;
   top: 29%;
@@ -254,6 +260,7 @@ section {
   /* overflow: hidden; */
   /* background-color: red; */
 }
+
 .section-3 .container .content {
   display: flex;
   position: absolute;
@@ -262,9 +269,6 @@ section {
   width: 99.4vw;
   transition: all 1s;
   /* transform: translateX(-49.7vw); */
-}
-.section-3 .container .content-inner {
-  width: 113.2vw;
 }
 .section-3 .container .box {
   position: relative;

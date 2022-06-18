@@ -8,11 +8,11 @@ const update = () => {
         content.style.transform = `translateX(${-49.6}vw)`
         container.style.overflow = `hidden`;
     })
+
     prev.addEventListener("click", () => {
         content.style.transform = `translateX(${0}vw)`
         // container.style.overflow = `hidden`;
     })
-
 }
 
 window.addEventListener("load", update);
