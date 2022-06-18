@@ -55,7 +55,7 @@ const update = () => {
         let yOffset = window.pageYOffset;
 
         for (let i = 0; i < section.length; i++){
-            if (yOffset > section[i].offsetTop && yOffset < section[i].offsetTop + section[i].offsetHeight) {
+            if (yOffset > section[i].offsetTop - window.innerHeight/2 && yOffset < section[i].offsetTop -window.innerHeight/2 + section[i].offsetHeight) {
                 pageNum = i;
                 break;
             }
@@ -67,47 +67,53 @@ const update = () => {
     const pageEffect = () => {
         switch (pageNum) {
             case 0:
-                // console.log(pageNum);
+                console.log(pageNum);
                 break;
             case 1:
+                console.log(pageNum);
                 note.style.opacity = 1;
                 life_log.style.opacity = 1;
                 life_log_box.style.opacity = 1;
                 life_log_box.style.transform = "none";
                 break;
             case 2:
-                // console.log(pageNum);
+                console.log(pageNum);
                 pointWrap.classList.remove("appear");
                 break;
             case 3:
+                console.log(pageNum);
                 text_box[0].style.opacity = 1;
                 text_box[0].style.transform = `none`;
                 img[0].style.opacity = 1;
                 navigation();
                 break;
             case 4:
+                console.log(pageNum);
                 text_box[1].style.opacity = 1;
                 text_box[1].style.transform = `none`;
                 img[1].style.opacity = 1;
                 navigation();
                 break;
             case 5:
+                console.log(pageNum);
                 text_box[2].style.opacity = 1;
                 text_box[2].style.transform = `none`;
                 img[2].style.opacity = 1;
                 navigation();
                 break;
             case 6:
-                // console.log(pageNum);
+                console.log(pageNum);
                 pointWrap.classList.remove("appear");
                 break;
             case 7:
+                console.log(pageNum);
                 content_1.style.opacity = 1;
                 content_1.style.transform = `none`;
                 content_2.style.opacity = 1;
                 content_2.style.transform = `none`;
                 break;
             case 8:
+                console.log(pageNum);
                 color_container.style.opacity = 1;
                 color_container.style.transform = `none`;
                 break;
