@@ -49,8 +49,8 @@ header {
 /* -------------------------------------- */
 .pointWrap {
   position: fixed;
-  right: 14vw;
-  top: 40%;
+  right: 12%;
+  top: 28%;
   z-index: 100;
   display: none;
 }
@@ -59,9 +59,9 @@ header {
 }
 .pointWrap li {
   list-style: none;
-  width: 16px;
-  height: 16px;
-  margin-top: 22px;
+  width: 1.8vw;
+  height: 1.8vw;
+  margin-top: 2.6vw;
   cursor: pointer;
   background-color: #999;
   border-radius: 50%;
@@ -74,7 +74,7 @@ header {
 
 /* ---------------------------------------- */
 section {
-  height: 100vh;
+  height: 53vw;
   /* border-top: 10px dotted; */
 }
 .section-0,
@@ -87,11 +87,11 @@ section {
 }
 .section-0 .text-0 {
   position: relative;
-  top: 35%;
-  left: 50%;
+  top: 38%;
+  left: 53%;
   transform: translate(-50%, -50%);
   font-family: WildernessTypeface-Regular;
-  font-size: 18rem;
+  font-size: 15.8vw;
   letter-spacing: -1.3vw;
   width: 40%;
   color: #144814;
@@ -138,8 +138,8 @@ section {
 
 .section-0 .text-0 .under {
   position: absolute;
-  top: 35%;
-  left: 50%;
+  top: 33%;
+  left: 45%;
 }
 
 /* --------------------------------------- */
@@ -151,15 +151,17 @@ section {
   position: absolute;
   top: 5%;
   left: -10.5%;
-  width: 40vw;
+  width: 39.9vw;
+  height: 42.6vw;
   transform: rotate(170deg);
   animation: rotate 1.5s ease-in-out alternate infinite;
 }
 .section-1 .right_leaf {
   position: absolute;
-  right: -6%;
-  bottom: 3%;
-  width: 30vw;
+  right: -14%;
+  bottom: 7%;
+  width: 32.5vw;
+  height: 29.4vw;
   transform: rotate(62deg);
   animation: rotate-2 1.5s ease-in-out alternate infinite;
 }
@@ -183,16 +185,17 @@ section {
   position: absolute;
   top: 16%;
   left: 20%;
-  width: 40vw;
+  width: 44.1vw;
+  height: 37.8vw;
   opacity: 0;
   transition: all 1s;
 }
 .section-1 .life_log {
   position: relative;
   top: 27%;
-  left: 51%;
+  left: 54%;
   font-family: inklipquid;
-  font-size: 4rem;
+  font-size: 4.7vw;
   opacity: 0;
   transition: all 1s;
   transition-delay: 0.3s;
@@ -204,17 +207,26 @@ section {
 }
 .section-1 .life_log_box {
   position: absolute;
-  top: 46%;
-  left: 55%;
-  padding: 1em;
-  letter-spacing: -1px;
+  top: 50%;
+  left: 59%;
+  width: 30.5vw;
+  height: 16vw;
+  padding: 0.8vw;
   background-color: #e0c2af8f;
   opacity: 0;
   transform: translateX(100px);
   transition: all 1s;
   transition-delay: 0.7s;
 }
-
+.section-1 .life_log_box .text-0 {
+  font-size: 1.16vw;
+  letter-spacing: -1px;
+}
+.section-1 .life_log_box .text-1 {
+  font-size: 1.16vw;
+  letter-spacing: -1px;
+  margin-top: 2.1vw;
+}
 /* --------------------------------- */
 .section-2 {
   background-color: #f8eae1;
@@ -286,23 +298,18 @@ section {
 }
 .section-box {
   background-image: url("/images/orange\ box.png");
-  width: 30%;
-  height: 100%;
+  width: 32.9vw;
+  height: 53vw;
   position: absolute;
   right: 0;
 }
-.section-3 .box-1 {
-  position: relative;
-  top: 22%;
-}
-.section-4 .box-1 {
-  position: relative;
-  top: 22%;
-}
+.section-3 .box-1,
+.section-4 .box-1,
 .section-5 .box-1 {
   position: relative;
   top: 22%;
 }
+
 /* --------------------------------- */
 .box-1 .text-box {
   position: absolute;
@@ -311,9 +318,19 @@ section {
   transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
   opacity: 0;
 }
+.box-1 .text-box h1 {
+  font-size: 3.7vw;
+}
+.box-1 .text-box h2 {
+  font-size: 2.4vw;
+}
+.box-1 .text-box p {
+  font-size: 1.6vw;
+}
 .box-1 img {
   position: absolute;
-  width: 30%;
+  width: 26.8vw;
+  height: 26.8vw;
   top: 0;
   right: 22%;
   opacity: 0;
