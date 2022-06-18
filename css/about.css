@@ -217,7 +217,7 @@ section {
   width: 30.5vw;
   height: 16vw;
   padding: 0.8vw;
-  background-color: #759774;
+  background-color: rgba(117, 151, 116, 0.15);
   opacity: 0;
   transform: translateX(100px);
   transition: all 1s;
