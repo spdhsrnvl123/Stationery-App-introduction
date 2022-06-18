@@ -160,17 +160,33 @@ section {
   border-left: 0;
 }
 .section-2 .container {
-  display: flex;
-  position: absolute;
+  position: relative;
   top: 25%;
   left: 37.9%;
+  width: 88.4vw;
+  height: 31.6vw;
+}
+.section-2 .container .content {
+  position: absolute;
+  display: flex;
+  transition: all 1s;
+  /* transform: translateX(-44.2vw); */
+  /* background-color: blue; */
 }
 .section-2 .container .box {
   position: relative;
   width: 22.1vw;
   height: 31.6vw;
+  transition: all 0.5s;
   /* margin-right: 0.4vw; */
   /* background-color: red; */
+}
+.section-2 .container.active .box:nth-child(3),
+.section-2 .container.active .box:nth-child(4) {
+  opacity: 1;
+}
+.section-2 .container .box_opacity {
+  opacity: 0.5;
 }
 .section-2 .container .box img {
   width: inherit;
@@ -275,6 +291,13 @@ section {
   width: 49.7vw;
   height: 27.7vw;
   margin-right: 6.9vw;
+  transition: all 0.3s;
+}
+.section-3 .container.active .box:nth-child(2) {
+  opacity: 1;
+}
+.section-3 .container .box_opacity {
+  opacity: 0.5;
 }
 .section-3 .container .box img:nth-child(1) {
   width: inherit;
