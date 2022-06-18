@@ -119,9 +119,6 @@ const update = () => {
                 break;
         }
     }
-
-
-
 }
 
 window.addEventListener("load", update);

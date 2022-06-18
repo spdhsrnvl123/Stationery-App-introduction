@@ -297,7 +297,7 @@ section {
   background-color: #f8eae1;
 }
 .section-box {
-  background-image: url("/images/orange\ box.png");
+  background-image: url("../images/orange\ box.png");
   width: 32.9vw;
   height: 53.4vw;
   position: absolute;
