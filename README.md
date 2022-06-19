@@ -1,3 +1,3 @@
 # MOON:s Project
-## Designer : 최지현,황나현
-## Developer : 이태형
+## Web Designer : 최지현,황나현
+## FrontEnd Developer : 이태형
