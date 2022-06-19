@@ -9,7 +9,7 @@
   top: 35%;
   left: 15%;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1vw;
   opacity: 0;
 }
 
@@ -21,8 +21,8 @@
 }
 .message .app::before {
   content: "";
-  width: 200px;
-  height: 200px;
+  width: 10.5vw;
+  height: 10.5vw;
   background-color: rgb(38, 14, 128);
 }
 

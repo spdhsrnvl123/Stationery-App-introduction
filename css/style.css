@@ -48,11 +48,11 @@ header {
 /* ------------------------------------------------------ */
 #container-0 {
   position: relative;
-  height: 100vh;
+  height: 53vw;
 }
 section {
   width: 100%;
-  height: 100vh;
+  height: 53vw;
   align-items: center;
   position: absolute;
   top: 0;
@@ -66,7 +66,7 @@ section {
   background-image: url("../images/home\ bg\ 01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -40px;
+  background-position-y: -2.1vw;
 }
 
 #represent_title {
@@ -121,7 +121,7 @@ section {
   background-image: url("../images/home\ bg\ 02.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position-y: -40px;
+  background-position-y: -2.1vw;
 }
 
 .section-1-content {
@@ -148,7 +148,7 @@ section {
   background-image: url("../images/home\ bg03.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position-y: -40px;
+  background-position-y: -2.1vw;
 }
 .section-2-container {
   width: 100%;
@@ -226,7 +226,7 @@ footer {
 .text_container {
   max-width: 80%;
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 0.5vw;
   line-height: 1.5;
 }
 .text_container .text_1,
@@ -234,10 +234,10 @@ footer {
   display: flex;
 }
 .text_container .text_1 p {
-  padding-right: 30px;
+  padding-right: 1.6vw;
 }
 .text_container .text_2 p {
-  padding-right: 94px;
+  padding-right: 4.9vw;
 }
 .sns {
   position: absolute;
@@ -245,5 +245,5 @@ footer {
   right: 10%;
 }
 .sns a {
-  padding-right: 7px;
+  padding-right: 0.4vw;
 }
