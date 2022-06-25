@@ -8,8 +8,11 @@
 
 ▶ mouse event<br />
 ▶ Modals<br />
+▶ Sidebar<br />
+▶ Card<br />
+▶ Doner Menu<br />
+▶ Loader<br />
 ▶ mobile environment<br />
-
 <hr />
 
 ![first main](images/main.jpg)
