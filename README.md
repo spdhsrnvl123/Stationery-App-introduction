@@ -1,8 +1,8 @@
 # **MOON:s Project**
 
-## Designer : 최지현,황나현
+## Designer : 2
 
-## FrontEnd : 이태형
+## FrontEnd : 1
 
 ## ※ **추후 개발 UI function**<br/>
 
