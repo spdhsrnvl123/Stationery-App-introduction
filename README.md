@@ -14,11 +14,6 @@
 
 ![first main](images/main.jpg)
 
-## CONTENT
-
-- 웹사이트 소개
-- 메뉴트리
-
 ## 웹사이트 소개
 
 ### **Goal**
@@ -32,7 +27,3 @@
 ### **Concept Keyword**
 
 따뜻함, 감성, 손글씨
-
-## 메뉴트리
-
-![menu tree](images/menu_tree.JPG)
