@@ -1,6 +1,6 @@
 # **Stationery_application_introduction(Collaborate with designers)**
 
-## Designer : 2
+## Design : 2
 
 ## FrontEnd : 1
 
