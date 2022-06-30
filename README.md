@@ -1,4 +1,4 @@
-# **MOON:s Project**(Collaborate with designers)
+# **Stationery_application_introduction(Collaborate with designers)**
 
 ## Designer : 2
 
@@ -13,11 +13,10 @@
 ▶ Doner Menu<br />
 ▶ Loader<br />
 ▶ mobile environment<br />
+
 <hr />
 
-![first main](images/main.jpg)
-
-## 웹사이트 소개
+## **웹사이트 소개**
 
 ### **Goal**
 
