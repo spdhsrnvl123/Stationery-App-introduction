@@ -1,4 +1,4 @@
-# **MOON:s Project**
+# **MOON:s Project**(Collaborate with designers)
 
 ## Designer : 2
 
@@ -8,8 +8,11 @@
 
 ▶ mouse event<br />
 ▶ Modals<br />
+▶ Sidebar<br />
+▶ Card<br />
+▶ Doner Menu<br />
+▶ Loader<br />
 ▶ mobile environment<br />
-
 <hr />
 
 ![first main](images/main.jpg)
