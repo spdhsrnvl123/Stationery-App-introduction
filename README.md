@@ -4,16 +4,6 @@
 
 ## FrontEnd : 1
 
-## ※ **추후 개발 UI function**<br/>
-
-▶ mouse event<br />
-▶ Modals<br />
-▶ Sidebar<br />
-▶ Card<br />
-▶ Doner Menu<br />
-▶ Loader<br />
-▶ mobile environment<br />
-
 <hr />
 
 ## **웹사이트 소개**
@@ -29,3 +19,14 @@
 ### **Concept Keyword**
 
 따뜻함, 감성, 손글씨
+
+<hr />
+## **추후 개발 UI function**<br/>
+
+▶ mouse event<br />
+▶ Modals<br />
+▶ Sidebar<br />
+▶ Card<br />
+▶ Doner Menu<br />
+▶ Loader<br />
+▶ mobile environment<br />
