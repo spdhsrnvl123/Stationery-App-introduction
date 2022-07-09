@@ -1,4 +1,4 @@
-# **Stationery_application_introduction(Collaborate with designers)**
+# **Stationery_App_introduction(Collaborate with designers)**
 
 ## Design : 2
 
